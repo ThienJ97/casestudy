@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="tab.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="trademark">
+            <div class="information col-3">
+                <i class="fa-solid fa-phone-volume"> 052 2272 426</i>
+                <i class="fa-regular fa-envelope"> demo@example.com</i>
+            </div>
+            <div class="col-6">
+                <p>HRAN</p>
+            </div>
+            <div class="col-3">
+                <div class="nav-right">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div>
+                <li>HOME <i class="fa-solid fa-chevron-down"></i></li>
+            </div>
+            <div>
+                <li>SHOP <i class="fa-solid fa-chevron-down"></i></li>
+            </div>
+            <div>
+                <li>BLOG <i class="fa-solid fa-chevron-down"></i></li>
+            </div>
+            <div>
+                <li>ABOUT US</li>
+            </div>
+            <div>
+                <li>CONTACT US</li>
+            </div>
+        </div>
+        <div class="background">
+            <video src="production ID_5106444.mp4" width="640" height="360" controls autoplay loop muted></video>
+        </div>
+        <div class="size">
+            <div class="size_1">
+                <li>
+                    <img src="1.png" alt="">
+                </li>
+            </div>
+            <div class="size_2">
+                <div>
+                    <li>
+                        <img src="3.png" alt="">
+                    </li>
+                </div><br>
+                <div class="size_2_NP">
+                    <li>Agalmatolite</li>
+                    <li>$10.399</li>
+                </div>
+            </div>
+        </div>
+        <div class="size2 size">
+            <div class="size2_1">
+                <li class="size2_1-name1">THE NEW ARRIVALS</li>
+                <li class="size2_1-name2">Preorder now to receive exclusive deals & gifts</li>
+            </div>
+            <div class="size2_2">
+                <input oninput="handleSearchChange()" placeholder="search" type="text" id="search">
+                <button><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+        </div>
+        <div class="products" id="tbProduct">
+
+        </div>
+        <div class="table_tab">
+            <h3>Cart</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Avatar</th>
+                        <th>Name</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody id="tbCart">
+                    
+                </tbody>
+                </table>
+
+        </div>
+    </div>
+</body>
+<script src="tab.js"></script>
+</html>
